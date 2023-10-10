@@ -1,11 +1,13 @@
 body {
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+  background-color: rgb(5, 5, 3);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
 }
 
-div {
-    display: grid;
-    place-items: center;
+main {
+  background-color: rgb(243, 243, 235);
+  width: 804px;
+  margin: 0% auto;
+  grid-template-columns: 132px 350px auto;
 }
